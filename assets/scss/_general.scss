@@ -1,10 +1,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  font-family: $font-default;
-  color: $default;
+
+
+body::-webkit-scrollbar {
+  display: none;
 }
+
 
 a {
   text-decoration: none;
